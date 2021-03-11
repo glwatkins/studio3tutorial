@@ -10,12 +10,12 @@
 <body>
     {{-- That's how you write a comment in blade --}}
     
-    @include('inc.navbar')
+    @include('navbar')
     
     <main class="container mt-4">
         @yield('content')
     </main>
-    @include('inc.footer')
+    <!--@include('inc.footer')-->
     <script src="{{asset('js/app.js')}}"></script> {{-- <- bootstrap and jquery --}}
     
 </body>
